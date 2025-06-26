@@ -49,9 +49,11 @@ class team:
     @staticmethod
     def try_new_team_leader():
         team_leader="mudicheruky"
+        return team_leader
 
 #we dont want to create object for class method
 team.new_team_leader()
 print("New Team Leader(After class method) :",team.team_leader)
 team. try_new_team_leader()
 print("New Team Leader(After static method) :",team.team_leader)
+print(team. try_new_team_leader())
